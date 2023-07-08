@@ -13,6 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <LangVersion>8.0</LangVersion>
     <TargetFrameworkProfile />
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,9 +36,6 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Build\Typography.GlyphLayout\Typography.GlyphLayout.csproj">
       <Project>{a34ca253-f035-4bef-a73f-ff91d46bed47}</Project>

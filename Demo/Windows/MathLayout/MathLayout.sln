@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLayout", "MathLayout\MathLayout.csproj", "{298F026D-BD20-4AD3-BE91-113E0D8A27B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathLayout", "MathLayout\MathLayout.csproj", "{298F026D-BD20-4AD3-BE91-113E0D8A27B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dep", "Dep", "{A3EC24E1-9094-4E8F-901B-73F19AEFCDDD}"
 EndProject
@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelFarm.MiniAgg.One", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintLab.PaintFx.MiniAgg", "..\..\..\PixelFarm\PaintLab.PaintFx\PaintLab.PaintFx.MiniAgg.csproj", "{A533E1C7-AB74-4BCF-BC7A-12D4DBBFA918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintLab.MathML", "PaintLab.MathML\PaintLab.MathML.csproj", "{7CD2A321-4D1D-4C5E-BF3D-5CFB6B423C82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintLab.MathML", "PaintLab.MathML\PaintLab.MathML.csproj", "{7CD2A321-4D1D-4C5E-BF3D-5CFB6B423C82}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

@@ -12,6 +12,13 @@
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyTitle>PaintLab.PaintFx</AssemblyTitle>
+    <Company>Microsoft</Company>
+    <Product>PaintLab.PaintFx</Product>
+    <Copyright>Copyright © Microsoft 2020</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,11 +39,6 @@
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="BrightnesssAndContrast.cs" />
     <Compile Include="InternalBrightnessAndContrastAdjustment.cs" />

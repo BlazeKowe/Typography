@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{EFD3FB30-F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{B3080145-1DA3-4FCA-A0E5-D99A46F6B243}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelFarmSample.WinForms", "Demo\Windows\PixelFarmSample.WinForms\PixelFarmSample.WinForms.csproj", "{6627819C-F72B-4444-8461-14A57674FBD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixelFarmSample.WinForms", "Demo\Windows\PixelFarmSample.WinForms\PixelFarmSample.WinForms.csproj", "{6627819C-F72B-4444-8461-14A57674FBD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdiPlusSample.WinForms", "Demo\Windows\GdiPlusSample.WinForms\GdiPlusSample.WinForms.csproj", "{0DABB64B-3D8C-4447-A129-619390ED0E87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GdiPlusSample.WinForms", "Demo\Windows\GdiPlusSample.WinForms\GdiPlusSample.WinForms.csproj", "{0DABB64B-3D8C-4447-A129-619390ED0E87}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PixelFarm", "PixelFarm", "{C4F7BE3A-77E3-4B10-A6AB-839CBCCF5163}"
 EndProject
@@ -27,13 +27,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Typography_Build", "Typogra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.IOS.GLES2", "Demo\iOS\Xamarin.iOS.GLES2\Xamarin.IOS.GLES2.csproj", "{A09B4BF0-2C5E-42E9-B23C-AFD0B5A8697D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlyphTess.WinForms", "Demo\Windows\GlyphTess.WinForms\GlyphTess.WinForms.csproj", "{56DCAE82-671D-409E-A3B3-BF4834756D3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlyphTess.WinForms", "Demo\Windows\GlyphTess.WinForms\GlyphTess.WinForms.csproj", "{56DCAE82-671D-409E-A3B3-BF4834756D3F}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DrawingGL.Common", "Demo\Shared\DrawingGL.Common.shproj", "{2E1E828F-6D2C-4B0E-A2E2-DDF24798CACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelFarm.Typography", "PixelFarm.Typography\PixelFarm.Typography.csproj", "{540A2EA6-DAE3-4625-8951-B2C3118603A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixelFarm.Typography", "PixelFarm.Typography\PixelFarm.Typography.csproj", "{540A2EA6-DAE3-4625-8951-B2C3118603A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypographyTest.WinForms", "Demo\Windows\TypographyTest.WinForms\TypographyTest.WinForms.csproj", "{9D2F3501-7705-4401-BE13-A7613CA0C4BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypographyTest.WinForms", "Demo\Windows\TypographyTest.WinForms\TypographyTest.WinForms.csproj", "{9D2F3501-7705-4401-BE13-A7613CA0C4BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Typography.I18N", "Typography.I18N", "{548A7FB1-834E-4197-B0BB-E32BF886D511}"
 EndProject
@@ -47,7 +47,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.TextFlow", "Typo
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.TextServices", "Typography.TextServices\Typography.TextServices.shproj", "{D07686EE-2618-4C20-8EB5-32AD4C4D3810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBreakTests", "Typography.TextBreak\Typography.TextBreak.UnitTests\TextBreakTests.csproj", "{2E593FCA-B809-4270-9EB2-93F380AF2D6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextBreakTests", "Typography.TextBreak\Typography.TextBreak.UnitTests\TextBreakTests.csproj", "{2E593FCA-B809-4270-9EB2-93F380AF2D6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Triangulation", "PixelFarm\BackEnd.Triangulation\BackEnd.Triangulation.csproj", "{C5E5802D-6A45-4FE9-BAE7-5F0AE91D72C1}"
 EndProject
@@ -55,7 +55,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Triangulation", "PixelFarm\
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Unpack_SH", "Unpack_SH\Unpack_SH.shproj", "{CE0D5C56-C9DA-4F22-9AD8-3677D0E034A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintLab.Svg", "PixelFarm\PaintLab.Svg\PaintLab.Svg.csproj", "{466DD2AE-EADC-4E20-82B3-DA6D018006C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintLab.Svg", "PixelFarm\PaintLab.Svg\PaintLab.Svg.csproj", "{466DD2AE-EADC-4E20-82B3-DA6D018006C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ONE", "ONE", "{46EDD385-59F7-4402-A023-9314C55471BB}"
 EndProject
@@ -63,13 +63,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Typography.One", "Build\Typ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.OpenGL", "Demo\Android\Xamarin.OpenGL\Xamarin.Android.OpenGL.csproj", "{B824FFB2-D057-490A-8967-892C0E20C0B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintLab.PaintFx.MiniAgg", "PixelFarm\PaintLab.PaintFx\PaintLab.PaintFx.MiniAgg.csproj", "{A533E1C7-AB74-4BCF-BC7A-12D4DBBFA918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaintLab.PaintFx.MiniAgg", "PixelFarm\PaintLab.PaintFx\PaintLab.PaintFx.MiniAgg.csproj", "{A533E1C7-AB74-4BCF-BC7A-12D4DBBFA918}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLayout", "Demo\Windows\MathLayout\MathLayout\MathLayout.csproj", "{298F026D-BD20-4AD3-BE91-113E0D8A27B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintLab.MathML", "Demo\Windows\MathLayout\PaintLab.MathML\PaintLab.MathML.csproj", "{7CD2A321-4D1D-4C5E-BF3D-5CFB6B423C82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Typography.TextBreak\Tools\Tools.csproj", "{69158085-7D63-45B8-9BD7-B6D580ACB5DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "Typography.TextBreak\Tools\Tools.csproj", "{69158085-7D63-45B8-9BD7-B6D580ACB5DA}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PixelFarm.Typography_SH", "PixelFarm.Typography\PixelFarm.Typography_SH.shproj", "{EC0BD041-5BA5-409D-8FC6-AA9F2A6F862B}"
 EndProject

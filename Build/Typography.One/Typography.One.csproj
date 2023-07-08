@@ -1,30 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DefineConstants>TRACE;NETSTANDARD1_6;NETSTANDARD1_6;NETSTANDARD2_0</DefineConstants>
   </PropertyGroup>
-
   <Import Project="..\..\Typography.OpenFont\Typography.OpenFont.projitems" Label="Shared" />
-
   <Import Project="..\..\Typography.GlyphLayout\Typography.GlyphLayout.projitems" Label="Shared" />
-
   <Import Project="..\..\Unpack_SH\Unpack_SH.projitems" Label="Shared" />
-
   <Import Project="..\..\Typography.TextBreak\Typography.TextBreak\Typography.TextBreak.projitems" Label="Shared" />
-
   <Import Project="..\..\Typography.TextServices\Typography.TextServices.projitems" Label="Shared" />
-
   <ItemGroup>
     <Compile Remove="DevTextPrinter\**" />
     <EmbeddedResource Remove="DevTextPrinter\**" />
     <None Remove="DevTextPrinter\**" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="..\..\Demo\Shared\GlyphOutlineBuilder\GlyphOutlineBuilder.cs" Link="Ty_Contours\GlyphOutlineBuilder.cs" />
     <Compile Include="..\..\Demo\Windows\PixelFarmSample.WinForms\IcuSimpleTextFileDictionaryProvider.cs" Link="Ty_TextBreak\IcuSimpleTextFileDictionaryProvider.cs" />
@@ -41,17 +32,13 @@
     <Compile Include="..\..\PixelFarm\PixelFarm.Painter_Layer2_SH\_ESS_LINK_WITH_TY\TextBufferSpan.cs" Link="Drawing_Ess\TextBufferSpan.cs" />
     <Compile Include="..\..\PixelFarm\PixelFarm.Painter_Layer2_SH\_ESS_LINK_WITH_TY\TextSpanMeasureResult.cs" Link="Drawing_Ess\TextSpanMeasureResult.cs" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
-    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.1" />
-  </ItemGroup>
-
   <ItemGroup>
     <Folder Include="Ty_Contours\" />
     <Folder Include="Ty_TextBreak\" />
     <Folder Include="Ty_Text\" />
     <Folder Include="Drawing_Ess\" />
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+  </ItemGroup>
 </Project>
