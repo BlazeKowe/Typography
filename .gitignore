@@ -290,4 +290,4 @@ __pycache__/
 *.xsd.cs
 
 # hide build directory
-build/
+Build/
