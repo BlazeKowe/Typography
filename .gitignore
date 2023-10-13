@@ -290,4 +290,4 @@ __pycache__/
 *.xsd.cs
 
 #ignore vscode folder
-.vscode
+.vscode/
