@@ -7,7 +7,6 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PaintLab.Svg</RootNamespace>
     <AssemblyName>PaintLab.Svg</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <TargetFramework>net6.0</TargetFramework>
@@ -132,19 +131,6 @@
     <Compile Include="..\PixelFarm.BasicVisualElements_SH\ExtensionAttribute.cs">
       <Link>ExtensionAttribute.cs</Link>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Visuals\VgDocBuilder.cs" />
-    <Compile Include="Visuals\VgDocument.cs" />
-    <Compile Include="Visuals\VgElemCreators.cs" />
-    <Compile Include="Visuals\VgHitChain.cs" />
-    <Compile Include="Visuals\MyVgPathDataParser.cs" />
-    <Compile Include="Visuals\VgPaintArgs.cs" />
-    <Compile Include="Visuals\VgResourceIO.cs" />
-    <Compile Include="Visuals\VgVisualElements.cs" />
-    <Compile Include="Visuals\VgVisualDoc.cs" />
-    <Compile Include="Visuals\VgVisualDocBuilder.cs" />
-    <Compile Include="Visuals\VgVisitors.cs" />
-    <Compile Include="Visuals\VgVisualDocHost.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\x_autogen\PixelFarm.MiniAgg.One\PixelFarm.MiniAgg.One.csproj">
